@@ -1,0 +1,85 @@
+body {
+    background-color:#bdd9ff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header{
+    text-align: center;
+    background-color: #75a8f0;
+    padding: 10px;
+}
+
+header nav a {
+
+    text-decoration: none;
+    color:#6c7178
+
+}
+
+nav a:hover {
+    color: white; /* Changes text color on hover */
+    background-color: #75a8f0; /* Optional background change on hover */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+    background-color: aliceblue;
+    margin: 20px;
+}
+
+#hobbies ul li {
+    background-color: #cfe4ff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px; 
+    font-style: italic;
+}
+
+
+h1 {
+    font-size: 48px;
+    color: #6c7178;
+    font-family: 'Lucida Sans';
+}
+
+form input{
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+#msg {
+    padding: 20px;
+    
+}
+#email-btn{
+    margin:10px;
+}
+
+
+
+
+nav {
+    list-style-type: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+
+#contact {
+    margin: 30px;
+ 
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #bdd9ff;
+}
